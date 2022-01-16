@@ -4,6 +4,8 @@
 </head>
 
 <body>
+<pre>
+    <code>
 <form>
     <script>
         function send() {
@@ -21,8 +23,15 @@
         }
     </script>
 
-    <p><textarea id="code_snippet">...</textarea></p>
-    <p><button id="send_snippet" type="submit" onclick="send()">Submit</button></p>
+    <textarea id="code_snippet">...</textarea>
+    <br>
+    <h6>Time restriction:</h6> <input id="time-restriction" type="text"/>
+    <br>
+    <h6>Views restriction:</h6> <input id="views_restriction" type="text"/>
+    <br>
+    <button id="send_snippet" type="submit" onclick="send()">Submit</button>
 </form>
+        </code>
+</pre>
 </body>
 </html>
